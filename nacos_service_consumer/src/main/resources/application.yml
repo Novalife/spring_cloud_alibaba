@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: nacos-service-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.197.204:8848
+server:
+  port: 8002
